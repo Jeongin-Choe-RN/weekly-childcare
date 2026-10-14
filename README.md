@@ -4,7 +4,9 @@
 
 부모용 공유 초안 v1.0.0 · 한국어 기본 · Claude / ChatGPT 활용 안내 포함
 
-[주간 양육 스킬 다운로드 (.skill)](https://raw.githubusercontent.com/Jeongin-Choe-RN/weekly-childcare/main/dist/weekly-childcare.skill) · [스킬 내용 보기](SKILL.md) · [English](README.en.md)
+[주간 양육 스킬 다운로드 (.skill)](https://raw.githubusercontent.com/Jeongin-Choe-RN/weekly-childcare/main/weekly-childcare.skill) · [스킬 내용 보기](source/SKILL.md) · [English](source/README.en.md)
+
+스킬 파일 하나에 필요한 지침과 참고자료가 포함되어 있습니다.
 
 ## 1. 무엇을 도와주나요?
 
@@ -33,11 +35,11 @@
 
 ### 개인 스킬을 만들 수 있는 환경
 
-`SKILL.md`와 함께 제공된 `references`, `templates`, `scripts` 파일을 전달하고 "이 자료로 weekly-childcare 개인 스킬을 만들어 주세요"라고 요청합니다. 스킬이 생성·활성화되면 이름을 선택하거나 "주간 양육 가이드로 이번 주 계획을 만들어 주세요"라고 요청합니다. Claude의 `.skill` 파일을 ChatGPT의 모든 계정에서 그대로 설치할 수 있다는 뜻은 아닙니다.
+`source` 폴더의 `SKILL.md`와 함께 제공된 `references`, `templates`, `scripts` 파일을 전달하고 "이 자료로 weekly-childcare 개인 스킬을 만들어 주세요"라고 요청합니다. 스킬이 생성·활성화되면 이름을 선택하거나 "주간 양육 가이드로 이번 주 계획을 만들어 주세요"라고 요청합니다. Claude의 `.skill` 파일을 ChatGPT의 모든 계정에서 그대로 설치할 수 있다는 뜻은 아닙니다.
 
 ### 일반 대화에서 시작하기
 
-[ChatGPT 시작 안내](docs/CHATGPT_START.md)를 대화에 첨부하거나 내용을 붙여 넣고 아이의 만 월령과 고민을 알려주세요. 이 경로는 안내문을 활용한 대화이며 개인 스킬이 설치되는 것은 아닙니다. 자세한 근거가 필요하면 [근거자료](references/evidence.md)도 함께 첨부할 수 있습니다.
+[ChatGPT 시작 안내](source/docs/CHATGPT_START.md)를 대화에 첨부하거나 내용을 붙여 넣고 아이의 만 월령과 고민을 알려주세요. 이 경로는 안내문을 활용한 대화이며 개인 스킬이 설치되는 것은 아닙니다. 자세한 근거가 필요하면 [근거자료](source/references/evidence.md)도 함께 첨부할 수 있습니다.
 
 기능 근거: [ChatGPT 스킬 안내](https://learn.chatgpt.com/docs/skills-and-plugins), [스킬 작성 안내](https://learn.chatgpt.com/docs/build-skills).
 
@@ -55,11 +57,11 @@
 
 ## 5. 기록 양식과 예시
 
-- [아이 기본정보 빈 양식](templates/profile.md)
-- [주간 관찰 빈 양식](templates/weekly-log.md)
-- [가상의 첫 주 안내 예시](examples/first-week.md)
-- [시기별 양육 방향](references/roadmap.md)
-- [근거와 확인일](references/evidence.md)
+- [아이 기본정보 빈 양식](source/templates/profile.md)
+- [주간 관찰 빈 양식](source/templates/weekly-log.md)
+- [가상의 첫 주 안내 예시](source/examples/first-week.md)
+- [시기별 양육 방향](source/references/roadmap.md)
+- [근거와 확인일](source/references/evidence.md)
 
 기록은 다음 세 줄로도 충분합니다.
 
@@ -99,7 +101,7 @@ GitHub 파일의 수정이 이미 설치한 모든 스킬에 자동 반영되는
 
 다른 사용자가 자신의 복사본을 고치는 것과 이 저장소의 원본을 직접 수정하는 것은 다릅니다. 원본 변경은 저장소 소유자와 쓰기 권한을 받은 협업자만 할 수 있습니다.
 
-월령 계산·배포용 Python 코드는 [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.txt)을 적용합니다. 파일별 적용 범위와 저작권 표시는 [LICENSE.md](LICENSE.md)를 확인하세요. `.skill` 파일에도 라이선스와 저작권 표시가 포함되어 있습니다. 참고한 기관 자료의 권리는 원저작자에게 있으며, 이 저장소의 라이선스가 해당 기관 자료에 적용되는 것은 아닙니다.
+월령 계산·배포용 Python 코드는 [PolyForm Noncommercial 1.0.0](source/LICENSES/PolyForm-Noncommercial-1.0.0.txt)을 적용합니다. 파일별 적용 범위와 저작권 표시는 [LICENSE.md](LICENSE.md)를 확인하세요. `.skill` 파일에도 라이선스와 저작권 표시가 포함되어 있습니다. 참고한 기관 자료의 권리는 원저작자에게 있으며, 이 저장소의 라이선스가 해당 기관 자료에 적용되는 것은 아닙니다.
 
 제작자: 최정인 (Jeongin Choe)
 

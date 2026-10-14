@@ -21,7 +21,7 @@ def main():
     paths = sorted(set(paths))
     if any(p.is_symlink() for p in paths):
         raise ValueError("Release files must not be symlinks")
-    out = ROOT / "dist"
+    out = ROOT.parent
     out.mkdir(exist_ok=True)
     skill_path = out / f"{NAME}.skill"
     with zipfile.ZipFile(skill_path, "w", compression=zipfile.ZIP_DEFLATED) as archive:
@@ -36,7 +36,7 @@ def main():
             raise ValueError("Package integrity check failed")
         if f"{NAME}/SKILL.md" not in archive.namelist():
             raise ValueError("Missing SKILL.md")
-    (out / "SHA256SUMS.txt").write_text(
+    (ROOT / "SHA256SUMS.txt").write_text(
         f"{hashlib.sha256(skill_path.read_bytes()).hexdigest()}  {skill_path.name}\n",
         encoding="utf-8",
     )

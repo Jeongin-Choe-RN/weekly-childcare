@@ -10,7 +10,7 @@ Except for the software and third-party materials identified below, the original
 
 This includes SKILL.md, README files, documentation, reference summaries, templates, examples, original assets and agent metadata. Noncommercial copying, adaptation and sharing are permitted subject to the license, including attribution, a license link and an indication of changes. Commercial use requires separate permission from the rights holder.
 
-Full terms: [CC-BY-NC-4.0.txt](LICENSES/CC-BY-NC-4.0.txt)
+Full terms: [CC-BY-NC-4.0.txt](source/LICENSES/CC-BY-NC-4.0.txt)
 
 Official license: https://creativecommons.org/licenses/by-nc/4.0/
 
@@ -18,17 +18,17 @@ Suggested attribution: “Weekly Parenting Guide — Jeongin Choe (최정인), h
 
 ## Python software
 
-All Python files under scripts/ and tools/ are licensed under the PolyForm Noncommercial License 1.0.0. Its full terms define permitted purposes, distribution requirements and other conditions.
+All Python files under source/scripts/ and source/tools/ are licensed under the PolyForm Noncommercial License 1.0.0. Its full terms define permitted purposes, distribution requirements and other conditions.
 
 Required Notice: Copyright 2026 Jeongin Choe (최정인)
 
-Full terms: [PolyForm-Noncommercial-1.0.0.txt](LICENSES/PolyForm-Noncommercial-1.0.0.txt)
+Full terms: [PolyForm-Noncommercial-1.0.0.txt](source/LICENSES/PolyForm-Noncommercial-1.0.0.txt)
 
 Official license: https://polyformproject.org/licenses/noncommercial/1.0.0
 
 ## Third-party materials and distribution archives
 
-Cited websites and source documents retain their own rights; linking or summarizing does not relicense them. The standard license texts in LICENSES/ retain their own terms. No third-party logos or endorsements are granted.
+Cited websites and source documents retain their own rights; linking or summarizing does not relicense them. The standard license texts in source/LICENSES/ retain their own terms. No third-party logos or endorsements are granted.
 
 The .skill file contains copies of the packaged files under the respective terms above; it does not grant a different license. The license terms include warranty disclaimers. This guide is not a clinically validated diagnostic or treatment program.
 
