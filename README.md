@@ -4,7 +4,7 @@
 
 부모용 공유 초안 v1.0.0 · 한국어 기본 · Claude / ChatGPT 활용 안내 포함
 
-[Claude 설치용 ZIP 다운로드](dist/weekly-childcare.zip?raw=true) · [.skill 파일 다운로드](dist/weekly-childcare.skill?raw=true) · [스킬 내용 보기](SKILL.md) · [English](README.en.md)
+[Claude 설치용 ZIP 다운로드](https://raw.githubusercontent.com/Jeongin-Choe-RN/weekly-childcare/main/dist/weekly-childcare.zip) · [.skill 파일 다운로드](https://raw.githubusercontent.com/Jeongin-Choe-RN/weekly-childcare/main/dist/weekly-childcare.skill) · [스킬 내용 보기](SKILL.md) · [English](README.en.md)
 
 ## 1. 무엇을 도와주나요?
 
