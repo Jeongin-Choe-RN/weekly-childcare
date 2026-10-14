@@ -14,16 +14,9 @@ The five steps are: understand the child → review observations → choose prio
 
 ## 2. Claude
 
-Download the `.skill` file above; it bundles the instructions and supporting materials. You do not need to extract it. Enable code execution and file creation, then open Customize → Skills → + → Create skill → Upload a skill. If the file picker accepts `.skill`, upload the file and enable it. If only ZIP is accepted or uploading fails, use the fallback below.
+Download the `.skill` file above; it bundles the instructions and supporting materials. You do not need to extract it. Enable code execution and file creation, then open Customize → Skills → + → Create skill → Upload a skill. If the file picker accepts `.skill`, upload the file and enable it. Supported file types and menus may vary by account or version; if the file cannot be selected, check the official installation instructions below.
 
 Example: "Use weekly-childcare. My child is 22 months old, attends childcare, and I have about 10 minutes on weekdays. I would like help responding when toys are thrown."
-
-<details>
-<summary>If the .skill file cannot be uploaded</summary>
-
-Claude's official installation instructions specify ZIP uploads. [Download the ZIP alternative](https://raw.githubusercontent.com/Jeongin-Choe-RN/weekly-childcare/main/dist/weekly-childcare.zip) and upload it without extracting it. Both formats contain the same files; only one needs to be installed.
-
-</details>
 
 See [Claude's official instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude). Archive structure has been checked; installation and behavior in a particular Claude account still need to be confirmed.
 
@@ -49,6 +42,6 @@ The skill instructions, documentation, blank templates and examples are shared u
 
 Original repository: <https://github.com/Jeongin-Choe-RN/weekly-childcare>. Permission to modify a downloaded copy does not grant write access to this repository.
 
-Python scripts use [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.txt). See [LICENSE.md](LICENSE.md) for file-level scope and copyright notices. Both installation archives include these notices and license texts. Third-party source materials retain their own rights and are not relicensed by this repository.
+Python scripts use [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.txt). See [LICENSE.md](LICENSE.md) for file-level scope and copyright notices. The `.skill` file includes these notices and license texts. Third-party source materials retain their own rights and are not relicensed by this repository.
 
 Author: Jeongin Choe (최정인). Developed with assistance from ChatGPT (OpenAI). This is not an official or endorsed product of any university, hospital, professional society or cited organization.

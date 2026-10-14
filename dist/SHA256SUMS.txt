@@ -1,2 +1,1 @@
-2e4fef914402177046f7bb21051ccf8964f61abaf3459c6c0db9d0f74dfc840d  weekly-childcare.zip
-2e4fef914402177046f7bb21051ccf8964f61abaf3459c6c0db9d0f74dfc840d  weekly-childcare.skill
+33a74ac6d1250f7ede032ab877834a8c1ab92f2d21bf7f20d8e9e8a6f0c306d5  weekly-childcare.skill

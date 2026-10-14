@@ -30,7 +30,7 @@ Official license: https://polyformproject.org/licenses/noncommercial/1.0.0
 
 Cited websites and source documents retain their own rights; linking or summarizing does not relicense them. The standard license texts in LICENSES/ retain their own terms. No third-party logos or endorsements are granted.
 
-The .zip and .skill files are copies of the packaged files under the respective terms above; they do not grant a different license. The license terms include warranty disclaimers. This guide is not a clinically validated diagnostic or treatment program.
+The .skill file contains copies of the packaged files under the respective terms above; it does not grant a different license. The license terms include warranty disclaimers. This guide is not a clinically validated diagnostic or treatment program.
 
 ## 한국어 안내
 

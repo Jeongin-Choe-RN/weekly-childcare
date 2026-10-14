@@ -19,20 +19,13 @@
 ## 2. Claude에서 사용하기
 
 1. 위의 `주간 양육 스킬 다운로드 (.skill)`를 눌러 파일 하나를 받습니다. 파일 안에 지침과 참고자료가 함께 들어 있으므로 따로 압축을 풀 필요가 없습니다.
-2. Claude에서 코드 실행 및 파일 생성 기능을 켜고 `Customize → Skills → + → Create skill → Upload a skill`을 엽니다. 파일 선택창이 `.skill`을 허용하면 받은 파일을 업로드하고 활성화합니다. ZIP만 허용하거나 업로드가 되지 않으면 아래 보조 안내를 이용합니다. 메뉴 이름과 제공 범위는 계정·버전에 따라 달라질 수 있습니다.
+2. Claude에서 코드 실행 및 파일 생성 기능을 켜고 `Customize → Skills → + → Create skill → Upload a skill`을 엽니다. 파일 선택창이 `.skill`을 허용하면 받은 파일을 업로드하고 활성화합니다. 지원하는 파일 형식과 메뉴는 계정·버전에 따라 달라질 수 있으므로, 파일을 선택할 수 없다면 아래 공식 설치 안내를 확인하세요.
 3. 새 대화에 다음처럼 입력합니다. 정확한 생일이나 이름 없이 월령만으로 시작할 수 있습니다.
 
    > weekly-childcare 스킬로 이번 주 양육을 도와주세요. 아이는 만 22개월이고 어린이집에 다녀요. 평일에는 함께 놀 시간이 10분 정도예요. 요즘 장난감을 던질 때 어떻게 반응할지 고민이에요.
 
 4. AI가 필요한 정보를 확인하면 아는 범위에서 답하고 주간 안내를 받습니다.
 5. 다음 주에는 새로 본 모습, 어려웠던 상황, 가능한 시간을 알려줍니다.
-
-<details>
-<summary>.skill 파일을 업로드할 수 없을 때</summary>
-
-Claude 공식 설치 안내는 ZIP 업로드를 기준으로 합니다. [ZIP 대체 파일 다운로드](https://raw.githubusercontent.com/Jeongin-Choe-RN/weekly-childcare/main/dist/weekly-childcare.zip)를 눌러 받은 뒤, 압축을 풀지 않고 ZIP 그대로 업로드하세요. `.skill`과 ZIP은 내용이 같으므로 둘 다 설치할 필요는 없습니다.
-
-</details>
 
 설치 근거: [Claude 공식 스킬 사용 안내](https://support.claude.com/en/articles/12512180-use-skills-in-claude). 설치 파일 구조는 확인했으며, 각 사용자의 Claude 계정에서의 설치·작동 확인은 별도로 필요합니다.
 
@@ -106,7 +99,7 @@ GitHub 파일의 수정이 이미 설치한 모든 스킬에 자동 반영되는
 
 다른 사용자가 자신의 복사본을 고치는 것과 이 저장소의 원본을 직접 수정하는 것은 다릅니다. 원본 변경은 저장소 소유자와 쓰기 권한을 받은 협업자만 할 수 있습니다.
 
-월령 계산·배포용 Python 코드는 [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.txt)을 적용합니다. 파일별 적용 범위와 저작권 표시는 [LICENSE.md](LICENSE.md)를 확인하세요. 설치용 ZIP과 `.skill`에도 라이선스와 저작권 표시가 포함되어 있습니다. 참고한 기관 자료의 권리는 원저작자에게 있으며, 이 저장소의 라이선스가 해당 기관 자료에 적용되는 것은 아닙니다.
+월령 계산·배포용 Python 코드는 [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.txt)을 적용합니다. 파일별 적용 범위와 저작권 표시는 [LICENSE.md](LICENSE.md)를 확인하세요. `.skill` 파일에도 라이선스와 저작권 표시가 포함되어 있습니다. 참고한 기관 자료의 권리는 원저작자에게 있으며, 이 저장소의 라이선스가 해당 기관 자료에 적용되는 것은 아닙니다.
 
 제작자: 최정인 (Jeongin Choe)
 
