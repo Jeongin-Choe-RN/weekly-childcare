@@ -4,7 +4,7 @@ A reusable AI skill for parents and caregivers of children aged 0–71 months in
 
 Public draft v1.0.0 · Korean by default · Claude and ChatGPT guidance
 
-[Download Claude ZIP](dist/weekly-childcare.zip?raw=true) · [Download .skill](dist/weekly-childcare.skill?raw=true) · [View SKILL.md](SKILL.md) · [한국어](README.md)
+[Download Claude ZIP](https://raw.githubusercontent.com/Jeongin-Choe-RN/weekly-childcare/main/dist/weekly-childcare.zip) · [Download .skill](https://raw.githubusercontent.com/Jeongin-Choe-RN/weekly-childcare/main/dist/weekly-childcare.skill) · [View SKILL.md](SKILL.md) · [한국어](README.md)
 
 ## 1. What it does
 
