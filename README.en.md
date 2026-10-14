@@ -4,7 +4,7 @@ A reusable AI skill for parents and caregivers of children aged 0–71 months in
 
 Public draft v1.0.0 · Korean by default · Claude and ChatGPT guidance
 
-[Download Claude ZIP](https://raw.githubusercontent.com/Jeongin-Choe-RN/weekly-childcare/main/dist/weekly-childcare.zip) · [Download .skill](https://raw.githubusercontent.com/Jeongin-Choe-RN/weekly-childcare/main/dist/weekly-childcare.skill) · [View SKILL.md](SKILL.md) · [한국어](README.md)
+[Download Weekly Parenting Guide (.skill)](https://raw.githubusercontent.com/Jeongin-Choe-RN/weekly-childcare/main/dist/weekly-childcare.skill) · [View SKILL.md](SKILL.md) · [한국어](README.md)
 
 ## 1. What it does
 
@@ -14,9 +14,16 @@ The five steps are: understand the child → review observations → choose prio
 
 ## 2. Claude
 
-Enable code execution and file creation. Open Customize → Skills → + → Create skill → Upload a skill, upload the ZIP and enable it. The `.skill` file contains the same ZIP archive; use `.zip` if the upload dialog does not accept `.skill`.
+Download the `.skill` file above; it bundles the instructions and supporting materials. You do not need to extract it. Enable code execution and file creation, then open Customize → Skills → + → Create skill → Upload a skill. If the file picker accepts `.skill`, upload the file and enable it. If only ZIP is accepted or uploading fails, use the fallback below.
 
 Example: "Use weekly-childcare. My child is 22 months old, attends childcare, and I have about 10 minutes on weekdays. I would like help responding when toys are thrown."
+
+<details>
+<summary>If the .skill file cannot be uploaded</summary>
+
+Claude's official installation instructions specify ZIP uploads. [Download the ZIP alternative](https://raw.githubusercontent.com/Jeongin-Choe-RN/weekly-childcare/main/dist/weekly-childcare.zip) and upload it without extracting it. Both formats contain the same files; only one needs to be installed.
+
+</details>
 
 See [Claude's official instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude). Archive structure has been checked; installation and behavior in a particular Claude account still need to be confirmed.
 
