@@ -1,0 +1,13 @@
+interface:
+  display_name: 주간 양육 가이드
+  short_description: 0~71개월 아이의 월령과 관찰에 맞춰 놀이·생활·보육·훈육을 함께 계획합니다
+  default_prompt: $weekly-childcare로 아이의 월령과 요즘 고민부터 확인하고 이번 주 양육 가이드를 만들어줘.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
